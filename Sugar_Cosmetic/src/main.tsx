@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import ThemeCustomization from './theme';
 import store from './redux/rootStore';
+import './localization';
 
 const rootElement = document.getElementById('root');
 if (rootElement) {
