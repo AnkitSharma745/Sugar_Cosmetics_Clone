@@ -25,6 +25,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
     project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
   },
   overrides: [
     {
@@ -39,7 +40,6 @@ module.exports = {
     'jsx-a11y',
     'import',
     'prettier',
-    'import',
   ],
   rules: {
     'no-console': 'off',
@@ -50,20 +50,25 @@ module.exports = {
     ],
     'react/react-in-jsx-scope': 'off',
     'import/prefer-default-export': 'off',
+    'import/no-unresolved': 'off', // Disable unresolved import checks
+    'import/extensions': 'off', // Disable file extension checks
     'prettier/prettier': [
       'error',
       {
         singleQuote: true,
         endOfLine: 'auto',
-        parser: 'flow',
+        parser: 'typescript',
       },
     ],
   },
   settings: {
     'import/resolver': {
       alias: {
-        map: [['@', './src']],
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        map: [['@', './src']], // Map alias '@' to './src'
+        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'], // Supported extensions
+      },
+      node: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
       },
     },
   },
