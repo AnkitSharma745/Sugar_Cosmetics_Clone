@@ -18,15 +18,9 @@
     "jsx": "react-jsx",
     "composite": true,
     "module": "ESNext",
-    "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/vite-plugin-eslint/dist"
-    ],
-
+    "baseUrl": ".",
     "paths": {
-      "baseUrl": ["./"],
-      "@/*": ["./src/*"]
-    },
-    "types": ["node"]
+      "@/*": ["src/*"]
+    }
   }
 }
