@@ -1,67 +1,67 @@
 export const darkPaletteOne = {
   // Common colors
-  commonBlack: '#000000',
-  commonWhite: '#FFFFFF',
+  commonBlack: '#121212', // Darker black for better contrast
+  commonWhite: '#E0E0E0', // Slightly muted white for dark mode
 
   // Primary colors
-  primaryLight: '#81c784',
-  primaryMain: '#4caf50',
-  primaryDark: '#388e3c',
-  primaryContrastText: '#FFFFFF',
+  primaryLight: '#5c6bc0', // Lighter shade of blue
+  primaryMain: '#2c2c2c', // More muted, yet bold primary blue
+  primaryDark: '#303f9f', // Darker shade of blue
+  primaryContrastText: '#FFFFFF', // White text on primary buttons
 
   // Secondary colors
-  secondaryLight: '#a5d6a7',
-  secondaryMain: '#66bb6a',
-  secondaryDark: '#388e3c',
-  secondaryContrastText: '#FFFFFF',
+  secondaryLight: '#80cbc4', // Lighter teal shade
+  secondaryMain: '#26a69a', // Muted greenish-teal
+  secondaryDark: '#00796b', // Dark teal
+  secondaryContrastText: '#FFFFFF', // White text on secondary buttons
 
   // Error colors
-  errorLight: '#e57373',
-  errorMain: '#f44336',
-  errorDark: '#d32f2f',
-  errorContrastText: '#FFFFFF',
+  errorLight: '#ff7961', // Lighter red
+  errorMain: '#f44336', // Bright red
+  errorDark: '#d32f2f', // Darker red
+  errorContrastText: '#FFFFFF', // White text on error messages
 
   // Warning colors
-  warningLight: '#ffb74d',
-  warningMain: '#ff9800',
-  warningDark: '#f57c00',
-  warningContrastText: '#000000',
+  warningLight: '#ffcc80', // Lighter orange
+  warningMain: '#ff9800', // Orange for warning messages
+  warningDark: '#f57c00', // Darker orange
+  warningContrastText: '#000000', // Black text on warning background
 
   // Info colors
-  infoLight: '#4fc3f7',
-  infoMain: '#03a9f4',
-  infoDark: '#0288d1',
-  infoContrastText: '#FFFFFF',
+  infoLight: '#80deea', // Lighter cyan
+  infoMain: '#00bcd4', // Cyan info
+  infoDark: '#0097a7', // Darker cyan
+  infoContrastText: '#FFFFFF', // White text on info boxes
 
   // Success colors
-  successLight: '#a5d6a7',
-  successMain: '#66bb6a',
-  successDark: '#388e3c',
-  successContrastText: '#FFFFFF',
+  successLight: '#a5d6a7', // Light green
+  successMain: '#66bb6a', // Main success green
+  successDark: '#388e3c', // Darker green for success
+  successContrastText: '#FFFFFF', // White text for success messages
 
   // Text colors
-  textPrimary: '#212121',
-  textSecondary: '#757575',
-  textDisabled: '#bdbdbd',
-  textHint: '#bdbdbd',
+  textPrimary: '#e0e0e0', // Light text on dark background
+  textSecondary: '#bdbdbd', // Secondary text in grey
+  textDisabled: '#757575', // Disabled text in grey
+  textHint: '#bdbdbd', // Hint text in grey
 
   // Background colors
-  backgroundDefault: '#303030',
-  backgroundPaper: '#424242',
+  backgroundDefault: '#212121', // Very dark background
+  backgroundPaper: '#303030', // Darker paper background
 
   // Divider color
-  divider: '#616161',
+  divider: '#616161', // Divider color in dark mode
 
   // Action colors
-  actionActive: '#6d6d6d',
-  actionHover: 'rgba(0, 0, 0, 0.08)',
-  ActionHoverOpacity: 0.04,
-  actionSelected: 'rgba(0, 0, 0, 0.16)',
-  selectedOpacity: 0.08,
-  actionDisabled: 'rgba(0, 0, 0, 0.38)',
-  actionDisabledBackground: 'rgba(0, 0, 0, 0.12)',
-  actionDisabledOpacity: 0.38,
-  focus: 'rgba(0,0,0,0.12)',
-  focusOpacity: 0.12,
-  activatedOpacity: 0.12,
+  actionActive: '#757575', // Active action elements in grey
+  actionHover: 'rgba(255, 255, 255, 0.08)', // White hover effect with opacity
+  ActionHoverOpacity: 0.12, // Slightly higher hover opacity
+  actionSelected: 'rgba(255, 255, 255, 0.16)', // Selected action with opacity
+  selectedOpacity: 0.08, // More muted selection opacity
+  actionDisabled: 'rgba(255, 255, 255, 0.38)', // Disabled actions in light grey
+  actionDisabledBackground: 'rgba(255, 255, 255, 0.12)', // Disabled background
+  actionDisabledOpacity: 0.38, // Disabled opacity
+  focus: 'rgba(255,255,255,0.12)', // Focus highlight
+  focusOpacity: 0.12, // Focus opacity
+  activatedOpacity: 0.12, // Activated opacity
 };

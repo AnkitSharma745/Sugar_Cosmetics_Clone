@@ -1,7 +1,6 @@
 import { Theme } from '@mui/material/styles';
 
 export default function componentStyleOverrides(theme: Theme) {
-  console.log(theme);
   return {
     // MuiAppBar: {
     //   styleOverrides: {
@@ -21,9 +20,9 @@ export default function componentStyleOverrides(theme: Theme) {
     MuiTextField: {
       styleOverrides: {
         root: {
-          fontSize: '14px',
+          fontSize: '14rem',
           '& .MuiInputBase-root': {
-            color: theme.palette.secondary.main,
+            color: theme.palette.primary.main,
             fontSize: '14px',
             padding: 0,
             height: '2.5rem',

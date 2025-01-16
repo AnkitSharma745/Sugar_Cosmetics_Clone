@@ -12,3 +12,9 @@ export interface ThemeCustomizationProps {
 export interface TypographyOptions {
   [key: string]: unknown;
 }
+
+export type ValidationException = {
+  description: string;
+  exceptionType: string;
+  statusCode: number;
+};

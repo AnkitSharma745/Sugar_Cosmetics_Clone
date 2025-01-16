@@ -6,7 +6,7 @@ export const darkDefault = {
 
   // Primary colors
   primaryLight: '#4fc3f7',
-  primaryMain: '#1976d2',
+  primaryMain: '#3c3c',
   primaryDark: '#004ba0',
   primaryContrastText: '#FFFFFF',
 
