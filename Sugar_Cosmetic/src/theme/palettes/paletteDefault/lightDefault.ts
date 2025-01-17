@@ -4,25 +4,25 @@ export const lightDefault = {
   commonWhite: '#FFFFFF',
 
   // Primary colors
-  primaryLight: '#d1c4e9', // Light purple
-  primaryMain: '#673ab7', // Purple
-  primaryDark: '#512da8', // Darker purple
+  primaryLight: '#f6e1f5', // Light pinkish purple
+  primaryMain: '#e45f8c', // Pinkish red
+  primaryDark: '#b32d59', // Dark pinkish red
   primaryContrastText: '#FFFFFF',
 
   // Secondary colors
-  secondaryLight: '#f8bbd0', // Light pink
-  secondaryMain: '#e91e63', // Pink
-  secondaryDark: '#c2185b', // Darker pink
+  secondaryLight: '#f1e6ff', // Light lavender
+  secondaryMain: '#9b4d96', // Purple
+  secondaryDark: '#6a2372', // Dark purple
   secondaryContrastText: '#FFFFFF',
 
   // Error colors
-  errorLight: '#f8bbd0', // Light pinkish red
-  errorMain: '#f44336', // Red
-  errorDark: '#d32f2f', // Dark red
+  errorLight: '#f8d7da', // Light pinkish red
+  errorMain: '#d32f2f', // Red
+  errorDark: '#b71c1c', // Dark red
   errorContrastText: '#FFFFFF',
 
   // Warning colors
-  warningLight: '#ffe082', // Light yellow-orange
+  warningLight: '#fff3cd', // Light yellow
   warningMain: '#ff9800', // Orange
   warningDark: '#f57c00', // Dark orange
   warningContrastText: '#000000',
