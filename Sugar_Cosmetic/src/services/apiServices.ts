@@ -1,6 +1,6 @@
 import { AxiosError } from 'axios';
-import { axiosInstance } from './axiosInstance';
 import { ValidationException } from '@/interfaces/modal';
+import { axiosInstance } from './axiosInstance';
 
 const onApiError = (error: unknown) => {
   if (error instanceof AxiosError) {
